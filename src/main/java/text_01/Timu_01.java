@@ -7,6 +7,7 @@ import java.util.Date;
 /**
  * @author heidou.f
  *         2016/5/17.
+ *         输出此时日期
  */
 public class Timu_01 {
     public static void main(String[] args){
