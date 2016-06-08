@@ -12,7 +12,8 @@ public class Text04 extends Date {
     }
 
     public void test(){
-        System.out.println(super.getClass().getName());//getClass().getSuperClass().getName();
+   //     System.out.println(super.getClass().getName());
+        System.out.println(getClass().getSuperclass().getName());
     }
 //在test方法中，直接调用getClass().getName()方法，返回的是Test类名
 //由于getClass()在Object类中定义成了final，子类不能覆盖该方法，所以，在

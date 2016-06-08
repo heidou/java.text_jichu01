@@ -6,15 +6,17 @@ import java.util.concurrent.CountDownLatch;
  * @author heidou.f
  *         2016/5/22.
  */
-public class AddTask implements Runnable{
+public class AddTask implements Runnable {
     private CountDownLatch latch;
-    public AddTask(CountDownLatch latch){
+
+    public AddTask(CountDownLatch latch) {
         this.latch = latch;
     }
+
     @Override
-    public void run(){
+    public void run() {
         latch.countDown();
         Integer value = Boot.add();
-        System.out.println("AddTask ="+value);
+        System.out.println("AddTask =" + value);
     }
 }
