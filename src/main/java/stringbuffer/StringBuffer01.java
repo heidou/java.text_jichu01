@@ -28,7 +28,7 @@ public class StringBuffer01 {
 
 
         final String aaString = "大白菜";
-      //  	aaString=aaString+"大青菜";
+      //  String	aaString ="大青菜";
         System.out.println(aaString);
     }
 }

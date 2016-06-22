@@ -17,6 +17,6 @@ public class Test05 {
             return func2();
         }
     }
-    int func1(){System.out.println("oioi"); return 1;}
+    int func1(){System.out.println("oioi");return 7; }
     int func2(){System.out.println("func2");return 3;}
 }
